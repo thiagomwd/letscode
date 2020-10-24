@@ -1,3 +1,7 @@
+/**
+ * this solution solve the next greater number using same digits
+ * @param {*} num 
+ */
 function getNext(num) {
   let possible = false;
   let stringNumber = String(num);
@@ -18,5 +22,3 @@ function getNext(num) {
     
   return possible ? oSplited.join('') : possible;
 }
-
-console.log(getNext(11121));
